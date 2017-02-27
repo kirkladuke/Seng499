@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 308974619}
   - component: {fileID: 308974618}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextTimeNeeded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,7 +506,18 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_OnValueChanged:
@@ -563,6 +574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635114642}
   - component: {fileID: 635114643}
+  - component: {fileID: 635114644}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -594,6 +606,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d52fb52ff54714d95c899117f3d901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &635114644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 635114641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0f5115172dd964396e2e34f5fa6965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldName: {fileID: 0}
+  TextName: {fileID: 0}
+  inputFieldDescrip: {fileID: 0}
+  TextDescrip: {fileID: 0}
+  inputTimeNeeded: {fileID: 0}
+  TextTimeNeeded: {fileID: 0}
+  inputFieldDueDate: {fileID: 0}
+  TextDueDate: {fileID: 0}
+  inputFieldAddtionalNotes: {fileID: 0}
+  TextAddionalNotes: {fileID: 0}
 --- !u!1 &648522939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1340,7 @@ GameObject:
   - component: {fileID: 1072021643}
   - component: {fileID: 1072021642}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextAdditionalNotes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1414,7 @@ GameObject:
   - component: {fileID: 1140727824}
   - component: {fileID: 1140727823}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +2007,7 @@ GameObject:
   - component: {fileID: 1613446901}
   - component: {fileID: 1613446900}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextDescrip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2196,6 +2229,7 @@ GameObject:
   - component: {fileID: 2044130631}
   - component: {fileID: 2044130630}
   - component: {fileID: 2044130629}
+  - component: {fileID: 2044130632}
   m_Layer: 5
   m_Name: btnSaveGoBack
   m_TagString: Untagged
@@ -2307,6 +2341,27 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044130627}
+--- !u!114 &2044130632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2044130627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0f5115172dd964396e2e34f5fa6965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldName: {fileID: 524545772}
+  TextName: {fileID: 1140727823}
+  inputFieldDescrip: {fileID: 1059407436}
+  TextDescrip: {fileID: 1613446900}
+  inputTimeNeeded: {fileID: 730296511}
+  TextTimeNeeded: {fileID: 308974618}
+  inputFieldDueDate: {fileID: 2119947419}
+  TextDueDate: {fileID: 2091731561}
+  inputFieldAddtionalNotes: {fileID: 1501377228}
+  TextAddionalNotes: {fileID: 1072021642}
 --- !u!1 &2091731559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,7 +2373,7 @@ GameObject:
   - component: {fileID: 2091731562}
   - component: {fileID: 2091731561}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextDueDate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
