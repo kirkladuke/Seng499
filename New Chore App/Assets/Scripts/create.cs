@@ -8,7 +8,7 @@ public class create : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		int pageNum = 0;
+		
 
 	}
 
@@ -20,6 +20,7 @@ public class create : MonoBehaviour {
 	{
 
 		SceneManager.LoadScene (pageNumbers);
+
 
 	}
 }
