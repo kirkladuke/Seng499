@@ -1,0 +1,64 @@
+Mono path[0] = 'C:/Users/jsons_000/Downloads/Seng499-master/Seng499-master/New Chore App/Builds_Data/Managed'
+Mono path[1] = 'C:/Users/jsons_000/Downloads/Seng499-master/Seng499-master/New Chore App/Builds_Data/Mono'
+Mono config path = 'C:/Users/jsons_000/Downloads/Seng499-master/Seng499-master/New Chore App/Builds_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/jsons_000/Downloads/Seng499-master/Seng499-master/New Chore App/Builds_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55477
+Multi-casting "[IP] 192.168.12.134 [Port] 55477 [Flags] 3 [Guid] 4014649919 [EditorId] 587057410 [Version] 1048832 [Id] WindowsPlayer(Jasons_computer) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55477]...
+PlayerConnection accepted from [192.168.12.134] handle:0x310
+Started listening to [0.0.0.0:55477]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56919
+PlayerConnection already initialized - listening to [0.0.0.0:55477]
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon HD 8670M (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2036 MB
+    Driver:   10.18.15.4256
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Google.MiniJson.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Google.MiniJson.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Unity.Compat.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Unity.Compat.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Unity.Tasks.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Unity.Tasks.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.App.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.App.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Analytics.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Auth.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Auth.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Database.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Database.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Google.Sharpen.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Google.Sharpen.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Invites.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Invites.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Messaging.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Messaging.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.RemoteConfig.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.RemoteConfig.dll into Unity Child Domain
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Storage.dll (this message is harmless)
+Loading C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\Firebase.Storage.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\jsons_000\Downloads\Seng499-master\Seng499-master\New Chore App\Builds_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.328715 ms

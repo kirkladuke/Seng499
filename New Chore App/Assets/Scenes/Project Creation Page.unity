@@ -503,21 +503,10 @@ MonoBehaviour:
   m_LineType: 0
   m_HideMobileInput: 0
   m_CharacterValidation: 0
-  m_CharacterLimit: 0
+  m_CharacterLimit: 98
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_OnValueChanged:
@@ -617,16 +606,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0f5115172dd964396e2e34f5fa6965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputFieldName: {fileID: 0}
-  TextName: {fileID: 0}
-  inputFieldDescrip: {fileID: 0}
-  TextDescrip: {fileID: 0}
-  inputTimeNeeded: {fileID: 0}
-  TextTimeNeeded: {fileID: 0}
-  inputFieldDueDate: {fileID: 0}
-  TextDueDate: {fileID: 0}
-  inputFieldAddtionalNotes: {fileID: 0}
-  TextAddionalNotes: {fileID: 0}
+  inputFieldName: {fileID: 524545772}
+  TextName: {fileID: 1140727823}
+  inputFieldDescrip: {fileID: 1059407436}
+  TextDescrip: {fileID: 1613446900}
+  inputTimeNeeded: {fileID: 730296511}
+  TextTimeNeeded: {fileID: 308974618}
+  inputFieldDueDate: {fileID: 2119947419}
+  TextDueDate: {fileID: 2091731561}
+  inputFieldAddtionalNotes: {fileID: 1501377228}
+  TextAddionalNotes: {fileID: 1072021642}
 --- !u!1 &648522939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,6 +2287,17 @@ MonoBehaviour:
       - m_Target: {fileID: 635114643}
         m_MethodName: OnCreate
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 635114644}
+        m_MethodName: CopyText
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
